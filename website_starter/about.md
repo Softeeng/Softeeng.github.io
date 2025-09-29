@@ -4,7 +4,6 @@ title: About Me
 permalink: /about/
 ---
 
-# About Me
 Hi, I'm **LaTiryni Gilbert**
 
 I'm a CS student and developer who enjoys building games, websites, and applications.
