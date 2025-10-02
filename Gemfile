@@ -14,6 +14,9 @@ gem "minima", "~> 2.5"
 gem "github-pages", group: :jekyll_plugins
 gem "webrick"
 gem "csv"
+gem "psych"
+gem "rexml"
+gem "bigdecimal"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
