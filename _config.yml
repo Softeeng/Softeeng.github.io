@@ -24,15 +24,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://Softeeng.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Navigation links
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "About"
-    url: "/about/"
-  - title: "Portfolio"
-    url: "portfolio/"
-
 # Build settings
 theme: jekyll-theme-midnight
 # theme: minima --- IGNORE ---
@@ -45,6 +36,15 @@ markdown: kramdown
 email: latiryni.gilbert@outlook.com
 github_username:  Softeeng
 linkedin: "https://www.linkedin.com/in/latiryni-gilbert/"
+
+# Navigation links
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Portfolio
+    url: /portfolio/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
