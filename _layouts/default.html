@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    {%- seo -%}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <style>
+      nav {
+        text-align: center;
+        margin: 20px 0;
+      }
+      nav a {
+        display: inline-block;
+        padding: 8px 15px;
+        margin: 0 5px;
+        text-decoration: none;
+        color: #fff; /* Midnight uses white text */
+        background: #222; /* Dark background */
+        border-radius: 6px;
+        transition: background 0.3s ease;
+      }
+      nav a:hover {
+        background: #444;
+      }
+      nav a.active {
+        background: #6a0dad; /* Purple highlight */
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="{{ '/' | relative_url }}" 
+           class="{% if page.url == '/' %}active{% endif %}">Home</a>
+
+        <a href="{{ '/about/' | relative_url }}" 
+           class="{% if page.url == '/about/' %}active{% endif %}">About</a>
+
+        <a href="{{ '/portfolio/' | relative_url }}" 
+           class="{% if page.url == '/portfolio/' %}active{% endif %}">Portfolio</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      {{ content }}
+    </main>
+
+    <footer>
+      <p style="text-align:center; font-size: small;">
+        © {{ site.title }} {{ site.time | date: "%Y" }}
+      </p>
+    </footer>
+  </body>
+</html>
