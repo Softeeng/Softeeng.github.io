@@ -22,7 +22,7 @@ This portfolio is where I showcase my projets and share a little about myself.
 - Web development 
 - Software engineering 
  
- ## Connect with Me 
+## Connect with Me 
 
 - Email - [latiryni.gilbert@outlook.com](mailto:latiryni.gilbert@outlook.com)  
 - [GitHub](https://github.com/Softeeng) 
