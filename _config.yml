@@ -33,10 +33,6 @@ plugins:
 
 markdown: kramdown
 
-email: latiryni.gilbert@outlook.com
-github_username:  Softeeng
-linkedin: "https://www.linkedin.com/in/latiryni-gilbert/"
-
 # Navigation links
 navigation:
   - title: Home
