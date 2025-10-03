@@ -270,7 +270,7 @@ DEPENDENCIES
   github-pages
   http_parser.rb (~> 0.6.0)
   jekyll-feed (~> 0.12)
-  minima (~> 2.5)
+  jekyll-theme-midnight
   psych
   rexml
   tzinfo (>= 1, < 3)

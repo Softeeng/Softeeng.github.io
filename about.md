@@ -11,4 +11,7 @@ This portfolio is where I showcase my projets and share a little about myself.
 
 - Skills: Ruby, HTML, CSS, JavaScript, Java, Python
 - Interests: Game development, Web development, Software engineering
-- Contact: [latiryni.gilbert@outlook.com](mailto:latiryni.gilbert@outlook.com) 
+- Contact: 
+Email - [latiryni.gilbert@outlook.com](mailto:latiryni.gilbert@outlook.com) 
+- [GitHub](https://github.com/Softeeng)
+- [LinkedIn](https://www.linkedin.com/in/latiryni-gilbert/)
