@@ -6,14 +6,6 @@ permalink: /portfolio/
 
 # My Projects
 
----
-layout: default
-title: Portfolio
-permalink: /portfolio/
----
-
-# My Projects
-
 Welcome to my portfolio! Below are some of the projects I've worked on as part of my development journey.
 
 <style>
