@@ -6,19 +6,67 @@ permalink: /portfolio/
 
 # My Projects
 
-Here are some of my favorite projects:
+---
+layout: default
+title: Portfolio
+permalink: /portfolio/
+---
 
-## Project 1:
-Medication Reminder App ~ A simple reminder app built with Python and Tkinter. This app allows users to set timed reminders for medication use/dispense.
-- Tech Used: Python, Tkinter (GUI)
-- Code: [View Project](https://github.com/Softeeng/Medication-Reminder)
+# My Projects
 
-## Project 2:
-Patient Record Manager ~ A console app built with Python and SQLite for adding, viewing, updating, and deleting patient records. This app allows for users to keep track of patients and update their information as needed.
-- Tech Used: Python 3, SQLite
-- Code: [View Project](https://github.com/Softeeng/PatientRecordManager)
+Welcome to my portfolio! Below are some of the projects I've worked on as part of my development journey.
 
-## Project 3:
-Horror Game Project ~ A decision-based 3D pyschological horror game built with Python and Ursina. This game is more of a passion project that is still under works that showcases my skill in game development.
-- Tech Used: Python, Ursina
-- Code: [View Project](https://github.com/Softeeng/horror-game)
+<style>
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .project-card {
+        background: #1a1a1a;
+        border-radius: 12px;
+        padding: 1rem;
+        color: #f5f5f5;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .project-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    }
+
+    .project-card a {
+        color: #66ccff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .project-card a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<div class="projects-grid">
+
+  <div class="project-card">
+    <h2>Medication Reminder App</h2>
+    <p>A Python desktop app built with Tkinter that helps users schedule, edit, and view medication reminders easily.</p>
+    <a href="https://github.com/Softeeng/Medication-Reminder" target="_blank">View Project</a>
+  </div>
+
+  <div class="project-card">
+    <h2>Patient Record Manager</h2>
+    <p>A command-line healthcare management system that stores and retrieves patient data securely using a local database.</p>
+    <a href="https://github.com/Softeeng/PatientRecordManager" target="_blank">View Project</a>
+  </div>
+
+  <div class="project-card">
+    <h2>Horror Game Project</h2>
+    <p>A psychological horror adventure where players explore rooms, collect artifacts, and uncover the curse of a haunted mansion.</p>
+    <a href="https://github.com/Softeeng/horror-game" target="_blank">View Project</a>
+  </div>
+
+</div>
