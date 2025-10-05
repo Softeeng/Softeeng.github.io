@@ -9,36 +9,47 @@ permalink: /portfolio/
 Welcome to my portfolio! Below are some of the projects I've worked on as part of my development journey.
 
 <style>
-    .projects-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        gap: 1.5rem;
-        margin-top: 1.5rem;
-    }
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
 
-    .project-card {
-        background: #1a1a1a;
-        border-radius: 12px;
-        padding: 1rem;
-        color: #f5f5f5;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
+  .project-card {
+    background: linear-gradient(145deg, #1c1c1c, #232323);
+    border-radius: 14px;
+    padding: 1.2rem;
+    color: #f5f5f5;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+  }
 
-    .project-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 4px 10px rgba(0,0,0,0.4);
-    }
+  .project-card:hover {
+    transform: translateY(-7px) scale(1.02);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+    border: 1px solid #66ccff;
+  }
 
-    .project-card a {
-        color: #66ccff;
-        text-decoration: none;
-        font-weight: bold;
-    }
+  .project-card h2 {
+    margin-top: 0;
+    color: #66ccff;
+  }
 
-    .project-card a:hover {
-        text-decoration: underline;
-    }
+  .project-card a {
+    color: #66ccff;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 0.5rem;
+    transition: color 0.2s ease;
+  }
+
+  .project-card a:hover {
+    color: #99e6ff;
+    text-decoration: underline;
+  }
 </style>
 
 <div class="projects-grid">
